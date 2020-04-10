@@ -5,7 +5,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 const useStyles = makeStyles(theme => ({
     root: {
         // margin: 'auto',
-        // width: 800
+        // width: 800 
+        //height: '100vh',  
     }
 }));
 

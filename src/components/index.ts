@@ -1,8 +1,9 @@
-import Home from './Home'
 import Projects from './Projects'
-
+import Skills from './Skills'
+import Experience from './Experience'
 
 export {
-    Home,
-    Projects
+    Projects,
+    Skills,
+    Experience
 }

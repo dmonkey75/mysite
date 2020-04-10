@@ -5,8 +5,8 @@ import {
     Route,
     Link
 } from "react-router-dom"; 
-import Container from '@material-ui/core/Container';
-import { Home, Projects } from '../components'
+import Container from '@material-ui/core/Container'; 
+import { Home, Project, Resume, About } from './../pages';
 
 const routes = [
     {
@@ -16,15 +16,15 @@ const routes = [
     },
     {
         path: "/projects",
-        main: () => <Projects />
+        main: () => <Project />
     },
     {
         path: "/resume",
-        main: () => <h2>Resume</h2>
+        main: () => <Resume />
     },
     {
         path: "/about",
-        main: () => <h2>About</h2>
+        main: () => <About />
     }
 ];
  
